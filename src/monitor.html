@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Stocks</title>
+        <link href="../public/css/style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+            <center>
+            <img src="../public/img/show-me-the-money.gif" width="200px">
+            <h2>Stocks</h2>
+            <!-- Input form in which you can type three Stock Symbols (such as AAPL for Apple, etc.)-->
+            <form action="ticker.php" method="post">
+                <p>Enter your first stock symbol:<br>
+                    <input type="text" name="stock1"/>
+                </p>
+                <br>
+                <p>Enter your second stock symbol:<br>
+                    <input type="text" name="stock2"/>
+                </p>
+                <br>
+                <p>Enter your third stock symbol:<br>
+                    <input type="text" name="stock3"/>
+                </p>
+                <input type="submit" value="Submit"/>
+                <input type="reset" value="Reset"/>
+            </form>
+            </center>
+        <main>
+        </main>
+        </body>
+</html>
